@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  padding-bottom: 100px;
+  clip: auto;
+  overflow-x: hidden;
+}
+
+#topmenu {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+}
+
+#topmenu > .site-nav {
+  margin: 0 20%;
+  padding: 10px;
+  background-color: rgba(61, 61, 61, 1);
+  color: #fff;
+  border: 2px solid #0d8843;
+  border-top: 0;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 2px 8px 0 #000;
+}
+
+#topmenu .langbar {
+  float: right;
+}

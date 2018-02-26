@@ -1,52 +1,22 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    background-color: #000;
-    padding-bottom: 100px;
-	clip: auto;
-	overflow-x: hidden;
-}
-
-#topmenu {
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    top: 0;
-}
-
-#topmenu > div {
-    margin: 0 20%;
-    padding: 10px;
-    background-color: rgba(61, 61, 61, 1);
-    color: #fff;
-    border: 2px solid #0d8843;
-    border-top: 0;
-    border-radius: 0 0 25px 25px;
-    box-shadow: 0 2px 8px 0 #000;
-}
-
 .item,
 #footer {
-    width: 90%;
-    height: auto;
-    margin: 50px 0;
-    margin-right: 0;
-    margin-left: 10%;
-    padding: 10px;
-    background-color: rgba(61, 61, 61, 0.9);
-    /*#666;*/
-    text-align: center;
-    color: #fff;
-    font-size: 1em;
-    border-radius: 25px 0px 0px 25px;
-    border: 2px solid #0d8843;
-    box-shadow: 0 2px 8px 0 #000;
-    transition: all 500ms ease-out;
-    position: relative;
-	visibility: hidden;
+  width: 90%;
+  height: auto;
+  margin: 50px 0;
+  margin-right: 0;
+  margin-left: 10%;
+  padding: 10px;
+  background-color: rgba(61, 61, 61, 0.9);
+  /*#666;*/
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+  border-radius: 25px 0px 0px 25px;
+  border: 2px solid #0d8843;
+  box-shadow: 0 2px 8px 0 #000;
+  transition: all 500ms ease-out;
+  position: relative;
+  visibility: hidden;
 }
 
 .item.show {
