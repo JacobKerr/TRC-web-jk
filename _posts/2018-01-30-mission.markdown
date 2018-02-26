@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Out mission"
+title: "Our mission"
 ref: mission
 date: 2018-01-28 23:30:56 -0500
 categories: terracoin mission

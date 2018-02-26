@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Out mission"
+title: "Notre mission"
 ref: mission
 date: 2018-01-28 23:30:56 -0500
 categories: terracoin mission
-lang: en
+lang: fr
 ---
 Terracoin n'est pas seulement une crypto-monnaie. C'est une communauté avec un objectif commun d'aider tout le monde à travers le monde.
 
