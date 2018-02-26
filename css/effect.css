@@ -100,11 +100,11 @@
 }
 
 #stars {
-  background: url(media/stars.png) repeat top center;
+  background: url(/edia/stars.png) repeat top center;
 }
 
 #twinkling {
-  background: transparent url(media/twinkling.png) repeat top center;
+  background: transparent url(/media/twinkling.png) repeat top center;
   -moz-animation: move-twink-back 2000s linear infinite;
   -ms-animation: move-twink-back 2000s linear infinite;
   -o-animation: move-twink-back 2000s linear infinite;
@@ -115,7 +115,7 @@
 #earth {
   width: 100vh;
   height: 100vh;
-  background: url(media/earthmap.jpg);
+  background: url(/media/earthmap.jpg);
   border-radius: 50%;
   background-size: 200vh;
   box-shadow: inset 32px 0 80px 12px rgba(0, 0, 0, 0.9), inset -32px 0 80px 12px rgba(255, 255, 255, 0.5);
