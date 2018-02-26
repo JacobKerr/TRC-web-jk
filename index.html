@@ -5,20 +5,14 @@ lang: en
 ---
 
 <div class="home">
+  {% assign posts=site.posts | where:"lang", page.lang %}
+  {% for post in posts %}
   <div class="item">
-    <h1 class="page-heading">Posts</h1>
+    <h1 class="page-heading">{{post.title}}</h1>
     <div class="content">
-      {% assign posts=site.posts | where:"lang", page.lang %}
-      {% for post in posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </li>
-      {% endfor %}
+      {{ post.content }}
     </div>
   </div>
+  {% endfor %}
 
 </div>
