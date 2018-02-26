@@ -19,8 +19,8 @@
   <link href="{{ "/safari-pinned-tab.svg" | prepend: site.baseurl }}" rel="mask-icon" color="#0e8843">
   <link href="{{ "/favicon.ico" | prepend: site.baseurl }}" rel="shortcut icon" type="image/vnd.microsoft.icon">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/effect.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
   <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
