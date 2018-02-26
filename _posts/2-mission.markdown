@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Out mission"
+ref: mission
+date: 2018-01-28 23:30:56 -0500
+categories: terracoin mission
+lang: en
+---
+Terracoin is not just a cryptocurrency. It is a community with a common goal of helping everyone around the world.
+
+| *Decentralized Governance* | *Masternodes* | *Donations* |
+|:----------:|:----------:|:----------:|
+| Allows people with masternodes to vote on proposals to help guide the future of the coin and how it effects people. | A passive income is paid out to masternode owners everywhere in the world. | The Terracoin Foundation is dedicated to helping people around the world. |
