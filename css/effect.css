@@ -29,6 +29,7 @@
   text-align: center;
   border-radius: 0px 25px 25px 0px;
   left: -100%;
+  border-left: none;
 }
 
 .item.right.show {
@@ -37,6 +38,7 @@
 
 .item.left {
   right: -100%;
+  border-right: none;
 }
 
 .item.left.show {
