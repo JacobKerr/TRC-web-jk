@@ -127,7 +127,7 @@
   animation-timing-function: linear;
   transform: rotateZ(10deg);
   position: fixed;
-  top: 50vh;
+  top: 70vh;
   left: 50%;
   margin-left: -50vh;
 }
