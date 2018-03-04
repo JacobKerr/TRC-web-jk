@@ -15,6 +15,7 @@ body {
   text-align: center;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 #topmenu > .site-nav {
@@ -26,6 +27,30 @@ body {
   border-top: 0;
   border-radius: 0 0 25px 25px;
   box-shadow: 0 2px 8px 0 #000;
+}
+
+#topmenu > .site-nav a,
+#footer > a {
+  padding: 0 2rem;
+  color: #d3dadc;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+#topmenu > .site-nav > .langbar > a {
+  padding: 0 0.25rem;
+}
+
+#topmenu > .site-nav a:hover,
+#topmenu > .site-nav a:active,
+#topmenu > .site-nav a:focus,
+#footer > a:hover,
+#footer > a:active,
+#footer > a:focus {
+  color: #0D8843;
+  text-decoration: none;
 }
 
 #topmenu .langbar {
