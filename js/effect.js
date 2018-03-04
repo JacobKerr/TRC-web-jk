@@ -1,6 +1,6 @@
 // JavaScript Document
 var is_init = false;
-$(window).on('load resize', function() {
+$(window).on('load', function() {
   var odd = true;
   $.each($('.item'), function() {
     var dir = 'left';
@@ -21,6 +21,15 @@ $(window).on('load resize', function() {
 
   if (is_init === false)
     is_init = true;
+});
+
+$(window).on('resize', function() {
+  $.each($('.item'), function() {
+    var x = $(this).position();
+    var h = $(this).outerHeight();
+
+    $(this).attr('data-top', x.top).attr('data-bottom', x.top + h);
+  });
 });
 
 $(window).on('load resize scroll', function() {
